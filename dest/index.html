@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>天然甘</title>
+    <link rel="shortcut icon" href="./imges/shortIcon.png">
+    <link rel="stylesheet" href="./css/page/index/main.css">
+    <script src="https://use.fontawesome.com/releases/v5.10.1/js/all.js"></script>
+    
+</head>
+<body>
+<!-- 首頁 index.html---------------------------------------------------- -->
+<!-- header------------------------------------ -->
+    <header>
+    <div class="header__container">
+        <span class="logo">
+            <a href="index.html"><img src="./images/Logo.svg"></a>
+        </span>
+        <div class="navList">
+            <a class="navItem @@focus01" href="#">關於我們<i class="fas fa-seedling"></i></a>
+            <a class="navItem @@focus02" href="#">特色果甘<i class="fas fa-apple-alt"></i></a>
+            <a class="navItem @@focus03" href="#">客製果甘<i class="fas fa-lemon"></i></a>
+            <a class="navItem @@focus04" href="#">折扣遊戲<i class="fas fa-carrot"></i></a>
+            <a class="navItem @@focus05" href="forum.html">果甘話區<i class="fas fa-leaf"></i></a>
+        </div> 
+        <div class="navList_2">
+            <a class="navItem_2" href="#"><i class="fas fa-user-circle"></i></a>
+            <a class="navItem_2" href="#"><i class="fas fa-shopping-cart"></i></a>               
+        </div>
+    </div>
+</header>
+
+
+<!-- 內容------------------------------------ -->
+<div class="wrap">
+    
+    <!-- 關於我們------------------------------------ -->
+    <section class="index_about">
+        <div class="contain">
+    <div class="cloud_section">
+        <img class="cloud1" src="./Jeff_images/img_1/couldSun.svg" alt="" width="20%">
+        <img class="cloud2" src="./Jeff_images/img_1/cloud2.svg" alt="" width="20%">
+    </div>
+    
+    <h2 class="title_index">
+        <img src="./Jeff_images/leaf.svg" class="leafLeft">
+        <img src="./Jeff_images/leaf.svg" class="leafRight">
+        關於我們
+    </h2>
+
+    <p>堅持來自產地新鮮水果製成果甘，“天然甘”提供多種天然水果甘及客製禮盒。</p>
+    
+    <div class="skyFruits">
+        <ul id="scene">
+            <li class="layer1" data-depth=".5">
+                <img src="./Jeff_images/img_1/fruit01.svg" alt="" width="150px">
+            </li>
+            <li class="layer2" data-depth="1">
+                <img src="./Jeff_images/img_1/fruit06.svg" alt="" width="100px">
+            </li>
+            <li class="layer3" data-depth="-1">
+                <img src="./Jeff_images/img_1/fruit05.svg" alt="" width="90px">
+            </li>
+            <li class="layer4" data-depth=".8">
+                <img src="./Jeff_images/img_1/fruit03.svg" alt="" width="100px">
+            </li>
+            <li class="layer5" data-depth="0.5">
+                <img src="./Jeff_images/img_1/fruit02.svg" alt="" width="100px">
+            </li>
+            <li class="layer6" data-depth="0.6">
+                <img src="./Jeff_images/img_1/fruit04.svg" alt="" width="100px">
+            </li>
+        </ul>
+    </div>
+
+    <div class="land_section">
+        <div class="fruitsInBasket">
+            <img src="./Jeff_images/img_2/fruitsInBasket_e.svg" alt="" width="100px">
+            <img src="./Jeff_images/img_2/fruitsInBasket_f.svg" alt="">
+            <img src="./Jeff_images/img_2/fruitsInBasket_e.svg" alt="">
+            <img src="./Jeff_images/img_2/fruitsInBasket_d.svg" alt="">
+            <img src="./Jeff_images/img_2/fruitsInBasket_c.svg" alt="">
+            <img src="./Jeff_images/img_2/fruitsInBasket_b.svg" alt="">
+            <img src="./Jeff_images/img_2/fruitsInBasket_a.svg" alt="">
+        </div>
+
+        <img class="land" src="./Jeff_images/img_1/landBasket.svg" alt="" width="65%">
+
+        <div class="about_btn">
+            <a href="#">
+                <div class="btn">關於我們</div>
+            </a>
+        </div>
+    </div>    
+</div>
+
+    </section>
+    
+    
+    <!-- 特色果甘------------------------------------ -->
+    <section class="index_prod">
+        <section class="index_prod" style="background-color:#D2E8F2;">
+    <div class="box_for_prod_title_hot_topics">
+        <div class="prod_title_hot_topics">
+            <img src="./images/dark_leaf.svg" class="prod_leafLeft">
+            <img src="./images/dark_leaf.svg" class="prod_leafRight">
+            特色果甘
+        </div>      
+    </div>
+    <h2 class="prod_the_grey_title">特色果甘排行</h2>
+    <div class="contain">
+        <div class="box_for_balloons">
+            <div class="prod_box_for_balloons" id="prod_box_for_balloons01"><!--我是空格1--><img src="images/grey_balloon.svg"></div>
+            <script>
+                function $id(id){
+                    return document.getElementById(id);
+                    }
+                    window.addEventListener("scroll",function(){
+                        if( document.documentElement.scrollTop > 600){
+                            $id("prod_box_for_balloons01").classList.add("prod_down150");
+                        }else {
+                            $id("prod_box_for_balloons01").classList.remove("prod_down150");
+                        }
+                    })
+            </script>
+            <div class="prod_wrapper_3balloon">
+                <div class="prod_a_balloon" >
+                    <img src="./images/white_balloon_and_mango.png" class="the_3balloon">
+                    <div class="prod_introduce">
+                        <div class="prod_introduce">
+                            <h3>我是芒果</h3>
+                            <h2 >3.9</h2>
+                            <img src="images/icon/three_stars.svg" class="prod_stars" >
+                        </div>
+                    </div>
+                </div>
+                <div class="prod_a_balloon center_balloon">
+                    <img src="./images/white_balloon_and_strawberry.png" class="the_3balloon">
+                    <div class="prod_introduce">
+                        <h3>我是草莓</h3>
+                        <h2>3.9</h2>
+                        <img src="images/icon/three_stars.svg" class="prod_stars" >
+                    </div>
+                </div>
+                <div class="prod_a_balloon">
+                    <img src="./images/white_balloon_and_pineapple.png" class="the_3balloon">
+                    <div class="prod_introduce">
+                        <h3>我是鳳梨</h3>
+                        <h2>3.9</h2>
+                        <img src="images/icon/three_stars.svg" class="prod_stars" >
+                    </div>
+                </div>
+            </div> <!--div.prod_wrapper_3balloon"-->
+            <div class="prod_box_for_balloons" id="prod_box_for_balloons02"><img src="images/grey_balloon.svg" style="width:80%;"></div>
+            <script>
+                function $id(id){
+                    return document.getElementById(id);
+                    }
+                    window.addEventListener("scroll",function(){
+                        if( document.documentElement.scrollTop > 600){
+                            $id("prod_box_for_balloons02").classList.add("prod_down200");
+                        }else {
+                            $id("prod_box_for_balloons02").classList.remove("prod_down200");
+                        }
+                    })
+            </script>
+        </div> <!--box_for_balloon的結尾標籤-->
+        <div class="box_for_whiteline">
+            <div class="prod_box_for_balloons" id="prod_box_for_balloons03"><img src="images/yellow_balloon.svg"></div>
+            <script>
+                function $id(id){
+                    return document.getElementById(id);
+                    }
+                    window.addEventListener("scroll",function(){
+                        if( document.documentElement.scrollTop > 900){
+                            $id("prod_box_for_balloons03").classList.add("prod_down200");
+                        }else {
+                            $id("prod_box_for_balloons03").classList.remove("prod_down200");
+                        }
+                    })
+            </script>
+            <div class="prod_white_line">
+                <img src="./images/balloon_line_ready.svg" class="the_line">
+            </div>
+            <div class="prod_box_for_balloons" id="prod_box_for_balloons04"><img src="images/blue_balloon.svg" style="width:100%;"></div>
+            <script>
+                function $id(id){
+                    return document.getElementById(id);
+                    }
+                    window.addEventListener("scroll",function(){
+                        if( document.documentElement.scrollTop > 1200){
+                            $id("prod_box_for_balloons04").classList.add("prod_down200");
+                        }else {
+                            $id("prod_box_for_balloons04").classList.remove("prod_down200");
+                        }
+                    })
+            </script>
+
+        </div>  <!--div.box_for_whiteline-->
+
+        <button class="prod_btn" onclick="location.href='./product.html'">更多果甘</button>
+
+    </div>
+</section>
+    </section>
+    
+    
+    <!-- 客製禮盒------------------------------------ -->
+    <section class="index_box">
+        <div class="contain">
+    <h2>製作屬於自己的客製禮盒吧</h2>
+    <div class="index_box_outer">
+        <a href="box.html"><img src="images/index_box_img.svg" alt=""></a>
+        <img src="images/index_isLand.svg" alt="">     
+        <img src="images/green_balloon.svg" alt="">
+        <img src="images/red_balloon.svg" alt="">
+        <img src="images/yellow_balloon.svg" alt="">
+    </div>
+    <a href="box.html"><div class="box_btn">客製禮盒</div></a>
+    <div class="hot_air_blue_balloon">
+        <img src="images/hot_air_blue_balloon.svg" alt="">
+    </div>
+    <div class="hot_air_red_balloon">
+        <img src="images/hot_air_red_balloon.svg" alt="">
+    </div>
+</div>
+    </section>
+    
+    
+    <!-- 客製果甘------------------------------------ -->
+    <section class="index_cust">
+        <div class="contain">
+    <h1 class="title_index">
+        <img src="./images/index_cust/leaf.svg" class="leafLeft">
+        <img src="./images/index_cust/leaf.svg" class="leafRight"> 客製果甘
+    </h1>
+    <h2>提供六種果甘的自由搭配</h2>
+    <div class="cust_qna_contain">
+        <div class="cust_contain">
+            <div class="cust_wheelset">
+                <div class="cust_wheelstick"></div>
+                <div class="cust_wheel">
+                    <div class="item1 item">
+                        <div class="content">
+                            <a href="#one">楊桃甘
+                                <div class="wheel_plate">
+                                    <img src="./images/index_cust/cusFruits/01_starFruit_c.png">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item2 item">
+                        <div class="content">
+                            <a href="#two">鳳梨甘
+                                <div class="wheel_plate">
+                                    <img src="./images/index_cust/cusFruits/02_pineapple_c.png">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item3 item">
+                        <div class="content">
+                            <a href="#three">火龍果甘
+                                <div class="wheel_plate"></div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item4 item">
+                        <div class="content">
+                            <a href="#four">香蕉甘
+                                <div class="wheel_plate"></div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item5 item">
+                        <div class="content">
+                            <a href="#five">草莓甘
+                                <div class="wheel_plate"></div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item6 item">
+                        <div class="content">
+                            <a href="#six">芭樂甘
+                                <div class="wheel_plate"></div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item7 item">
+                        <div class="content">
+                            <a href="#seven">芒果甘
+                                <div class="wheel_plate"></div>
+                            </a>
+                        </div>
+                    </div>
+                    <div id="wrapper8">
+                        <div class="item8 item">
+                            <div class="content">
+                                <a href="#eight">蘋果甘
+                                    <div class="wheel_plate"></div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="center">
+                        <a href="#"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="qna_contain">
+            <h2 class="title_page">
+                <img src="./images/index_cust/leaf.svg" class="leafLeft">
+                <img src="./images/index_cust/leaf.svg" class="leafRight"> 果甘測驗
+            </h2>
+            <div>
+                <div>
+                    <h4>不知道怎麼選嗎？</h4>
+                    <h4>回答問題讓天然甘給您適合的建議吧！</h4>
+                </div>
+                <div class="qna_paper">
+                    <div class="qna_paper_upper">
+                        <h5>Q : <span>喝咖啡、吃甜食，讓你胃食道逆流或摁摁不順暢嗎?</span></h5>
+                        <span> 1 / 6</span>
+                    </div>
+                    <div class="qna_paper_lower">
+                        <span><input type="radio" name="q1">還好欸，我身強體壯</span>
+                        <span><input type="radio" name="q1">有一點，最近偶爾會這樣</span>
+                        <span><input type="radio" name="q1">每天都這樣....</span>
+                    </div>
+                    <div class="qna_paper_buttons">
+                        <button type="submit">上一題</button>
+                        <button type="submit">下一題</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="cust_platform"></div>
+    <button class="cust_more">更多客製果甘</button>
+</div>
+    </section>
+
+    
+    <!-- 果甘話區------------------------------------ -->
+    <section class="index_bbs">
+        <h2 class="bbs_title">
+    <img src="./images/leaf.svg" class="leafLeft">
+    <img src="./images/leaf.svg" class="leafRight">
+    果甘話區
+</h2>
+<div class="contain">
+    <div class="bbs_articles">
+        <div class="bbs_article bbs_article1">
+            <img class="balloon1" src="./images/ball.svg">
+            <div class="bbs_article_contain bbs_article1_contain">
+                <a href="forum_article.html" class="post_link">
+                    <div class="post post1">
+                        <div class="author">
+                            <div class="author_img">
+                                <img src="./images/mwyqpL.jpg" alt="">
+                            </div>
+                            <p class="author_name">某人</p>
+                        </div>
+                        <p class="post_title">無加糖紅肉火龍果乾</p>
+                        <div class="post_topic post_topic1">
+                            <img src="./images/circled1.jpg">
+                            <span class="topic1">幫助消化</span>
+                            <span class="post_time">2020-02-22 15:45:00</span>
+                        </div>
+                        <p class="post_content">紅肉火龍果，
+                            特有的紅色果肉，
+                            含有一般植物少有的植物性「白蛋白」及花青素，
+                            維生素C的含量也較其他蔬果來得豐富，是台灣普遍喜愛的水果之一。
+
+                            幸福的無加糖火龍果乾，
+                            選用臺灣的紅肉火龍果下去低溫烘製而成，
+                            除了吃的到火龍果濃郁的香、水果原本的甜與農民的愛之外，
+                            更吃的到我們的用心，適合喜愛自然原味的您。
+                        </p>
+                        <div class="post_hashtag post1_hashtag">
+                            <span class="fruit_kind fruit_kind1">楊桃</span>
+                            <span class="fruit_kind fruit_kind1">鳳梨</span>
+                            <span class="fruit_kind fruit_kind2">香蕉</span>
+                            <span class="fruit_kind fruit_kind2">草莓</span>
+                            <span class="fruit_kind fruit_kind3">芒果</span>
+                            <span class="fruit_kind fruit_kind3">蘋果</span>
+                        </div>
+                        <div class="social_zone">
+                            <div class="likeAndComment">
+                                <i class="fas fa-heart"></i>
+                                <p class="like_count">10</p>
+                                <i class="fas fa-comment"></i>
+                                <p class="comment_count">2</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="bbs_article bbs_article2">
+            <img class="balloon2" src="./images/ball2.svg">
+            <div class="bbs_article_contain bbs_article2_contain">
+                <a href="forum_article.html" class="post_link">
+                    <div class="post post2">
+                        <div class="author">
+                            <div class="author_img">
+                                <img src="./images/ZmPb3D.jpg" alt="">
+                            </div>
+                            <p class="author_name">某人</p>
+                        </div>
+                        <p class="post_title">幸福大湖草莓乾</p>
+                        <div class="post_topic post_topic2">
+                            <img src="./images/circled2.jpg">
+                            <span class="topic2">保護血管</span>
+                            <span class="post_time">2020-02-22 15:45:00</span>
+                        </div>
+                        <p class="post_content">苗栗，一個讓人想到客家文化、木雕與草莓的地方。
+                            大湖草莓季在臺灣更是相當知名，每每到了草莓季，
+                            可以看到許多的家庭，帶著小朋友一起出門採草莓，體驗農民的一日生活。
+                            幸福選用來自苗栗大湖的草莓，將整顆的草莓放入機器烘烤，
+                            添加少許砂糖以減少細菌滋生，用最無害的方式延長果乾的保存期，
+                            每一口所吃到的，是草莓的香、酸、甜與農民的愛，及我們的用心。
+                        </p>
+                        <div class="post_hashtag post1_hashtag">
+                            <span class="fruit_kind fruit_kind1">楊桃</span>
+                            <span class="fruit_kind fruit_kind1">鳳梨</span>
+                            <span class="fruit_kind fruit_kind2">香蕉</span>
+                            <span class="fruit_kind fruit_kind2">草莓</span>
+                            <span class="fruit_kind fruit_kind3">芒果</span>
+                            <span class="fruit_kind fruit_kind3">蘋果</span>
+                        </div>
+                        <div class="social_zone">
+                            <div class="likeAndComment">
+                                <i class="fas fa-heart"></i>
+                                <p class="like_count">10</p>
+                                <i class="fas fa-comment"></i>
+                                <p class="comment_count">2</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="bbs_article bbs_article3">
+            <img class="balloon2" src="./images/ball.svg">
+            <div class="bbs_article_contain bbs_article3_contain">
+                <a href="forum_article.html" class="post_link">
+                    <div class="post post3">
+                        <div class="author">
+                            <div class="author_img">
+                                <img src="./images/GF3ict.jpg" alt="">
+                            </div>
+                            <p class="author_name">某人</p>
+                        </div>
+                        <p class="post_title">無加糖愛文芒果乾</p>
+                        <div class="post_topic post_topic3">
+                            <img src="./images/circled3.jpg">
+                            <span class="topic3">活化大腦</span>
+                            <span class="post_time">2020-02-22 15:45:00</span>
+                        </div>
+                        <p class="post_content">屏東枋山與臺南玉井所孕育的愛文芒果，更是夏日獨特的紅寶石，
+                            不僅臺灣人喜愛，更是受到其他國家的青睞。
+
+                            我們的愛文芒果乾，
+                            是幸福親自挑選過的愛文芒果下去烘製，
+                            這款是完全無加糖的做法，
+                            選用熟度佳的芒果，不使用催熟的芒果，
+                            烘製出的芒果乾有原本的甜，更有農民的愛，及我們的用心。
+                        </p>
+                        <div class="post_hashtag post1_hashtag">
+                            <span class="fruit_kind fruit_kind1">楊桃</span>
+                            <span class="fruit_kind fruit_kind1">鳳梨</span>
+                            <span class="fruit_kind fruit_kind2">香蕉</span>
+                            <span class="fruit_kind fruit_kind2">草莓</span>
+                            <span class="fruit_kind fruit_kind3">芒果</span>
+                            <span class="fruit_kind fruit_kind3">蘋果</span>
+                        </div>
+                        <div class="social_zone">
+                            <div class="likeAndComment">
+                                <i class="fas fa-heart"></i>
+                                <p class="like_count">10</p>
+                                <i class="fas fa-comment"></i>
+                                <p class="comment_count">2</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <a href="forum.html" class="btn bbs_btn">更多話題</a>
+</div>
+    </section>
+    
+
+    <!-- footer------------------------------------ -->
+
+    <footer> 
+    <strong>Copyright &copy; 2020 Natural Sweet</srong>
+    <i class="fas fa-leaf"></i>
+</footer>
+
+</body>
+</html>
